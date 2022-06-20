@@ -1,30 +1,30 @@
-# Mantine Next Template
+#  Next.js with Mantine UI
+This is a starter kit for using Next.js with the Mantine UI library which includes more than 120 customizable components and hooks.
 
-Get started with Mantine + Next with just a few button clicks.
-Click `Use this template` button at the header of repository or [follow this link](https://github.com/mantinedev/mantine-next-template/generate) and
-create new repository with `@mantine` packages. Note that you have to be logged in to GitHub to generate template.
+## Starter Kit Features
 
-## Features
-
-This template comes with several essential features:
+This starter kit comes with several essential features:
 
 - Server side rendering setup for Mantine
 - Color scheme is stored in cookie to avoid color scheme mismatch after hydration
 - Storybook with color scheme toggle
-- Jest with react testing library
-- ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
+- Jest testing library
+- ESLint
 
-## npm scripts
-
-### Build and dev scripts
-
+## Build and Development Scripts
 - `dev` – start dev server
 - `build` – bundle application for production
 - `export` – exports static website to `out` folder
 - `analyze` – analyzes application bundle with [@next/bundle-analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
 
-### Testing scripts
 
+
+## Storybook Scripts
+- `storybook` – starts storybook dev server
+- `storybook:build` – build production storybook bundle to `storybook-static`
+- `prettier:write` – formats all files with Prettier
+
+## Testing Scripts
 - `typecheck` – checks TypeScript types
 - `lint` – runs ESLint
 - `prettier:check` – checks files with Prettier
@@ -32,8 +32,4 @@ This template comes with several essential features:
 - `jest:watch` – starts jest watch
 - `test` – runs `jest`, `prettier:check`, `lint` and `typecheck` scripts
 
-### Other scripts
 
-- `storybook` – starts storybook dev server
-- `storybook:build` – build production storybook bundle to `storybook-static`
-- `prettier:write` – formats all files with Prettier
